@@ -5,7 +5,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, UnexpectedAlertPresentException
 from selenium.webdriver.firefox.options import Options
-
+import pywhatkit
+pywhatkit.playonyt("Rick Roll") #Just for fun
 # Create a virtual display to start the browser in the background.
 display = Display(visible=0, size=(1920, 1080))
 display.start()
